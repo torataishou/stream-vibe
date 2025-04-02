@@ -24,7 +24,7 @@ const Social = (props) => {
                             className="soc1als__link"
                             mode="black-10"
                             href="/"
-                            targer="_blank"
+                            target="_blank"
                             label={label}
                             isLabelHidden
                             iconName={iconName}
