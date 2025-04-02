@@ -20,6 +20,7 @@
   } @else {
     display: flex;
   }
+
   justify-content: center;
   align-items: center;
 }
@@ -39,7 +40,7 @@
 @mixin abs-x {
   position: absolute;
   left: 50%;
-  translate: -50% -50%;
+  translate: -50%;
 }
 
 @mixin abs-y {
@@ -68,7 +69,7 @@
 
 @mixin focus-visible {
   outline: 2px dashed var(--color-white);
-  outline-offset: +4px;
+  outline-offset: 4px;
   transition-duration: 0s !important;
 }
 
