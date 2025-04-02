@@ -9,11 +9,11 @@ const Footer = () => {
         },
         {
             title: 'Movies',
-            links: ['Gernes', 'Trending', 'New Release', 'Popular'],
+            links: ['Genres', 'Trending', 'New Release', 'Popular'],
         },
         {
             title: 'Popular',
-            links: ['Gernes', 'Trending', 'New Release', 'Popular'],
+            links: ['Genres', 'Trending', 'New Release', 'Popular'],
         },
         {
             title: 'Support',
@@ -42,7 +42,7 @@ const Footer = () => {
         },
     ];
 
-    const extraLinks = ['Terms of Use', 'Privacy Policy', 'Cookie Policy'];
+    const extraLinks = ['Terms of Use ', 'Privacy Policy ', 'Cookie Policy'];
 
     return (
         <footer className="footer">
