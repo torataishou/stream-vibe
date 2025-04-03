@@ -36,7 +36,7 @@ const Hero = () => {
                     <Button
                         className="hero__button"
                         iconName="play"
-                        hasFilIcon
+                        hasFillIcon
                         label="Start Watching Now"
                     />
                 </div>
