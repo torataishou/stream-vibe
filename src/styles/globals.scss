@@ -87,4 +87,15 @@ a {
 
 :focus-visible {
   @include focus-visible;
+
+}
+
+:has(.swiper) {
+  min-width: 0;
+}
+
+.header,
+.content > *:not(:last-child),
+.footer {
+  display: none !important;
 }
