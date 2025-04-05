@@ -8,32 +8,32 @@ const Devices = () => {
         {
             title:'Smartphones',
             description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-            imgSrc: '/public/devices/1.svg',
+            imgSrc: '/devices/1.svg',
         },
         {
             title:'Tablet',
             description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-            imgSrc: '/public/devices/2.svg',
+            imgSrc: '/devices/2.svg',
         },
         {
             title:'Smart TV',
             description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-            imgSrc: '/public/devices/3.svg',
+            imgSrc: '/devices/3.svg',
         },
         {
             title:'Laptops',
             description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-            imgSrc: '/public/devices/4.svg',
+            imgSrc: '/devices/4.svg',
         },
         {
             title:'Gaming Consoles',
             description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-            imgSrc: '/public/devices/5.svg',
+            imgSrc: '/devices/5.svg',
         },
         {
             title:'VR Headsets ',
             description: 'StreamVibe is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store',
-            imgSrc: '/public/devices/6.svg',
+            imgSrc: '/devices/6.svg',
         },
     ]
 
