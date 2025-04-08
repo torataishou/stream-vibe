@@ -1,3 +1,3 @@
-import PlanCard from './PlanCard';
+import PlanCard from './PlanCard'
 
-export default PlanCard;
+export default PlanCard

@@ -1,7 +1,7 @@
 const getIdFromTitle = (title) => {
   return title
-      .toLowerCase()
-      .replaceAll(' ', '-')
-};
+    .toLocaleLowerCase()
+    .replaceAll(' ', '-')
+}
 
-export default getIdFromTitle;
+export default getIdFromTitle

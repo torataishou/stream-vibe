@@ -3,12 +3,8 @@
 
   &__details {
     &[open] {
-      .accordion__title {
-        min-height: 0;
-
-        &::after {
-          rotate: 0deg;
-        }
+      .accordion__title::after {
+        rotate: 0deg;
       }
 
       & + .accordion__content {
@@ -16,7 +12,6 @@
       }
     }
   }
-
 
   &__summary {
     color: var(--color-white);
@@ -34,25 +29,25 @@
   }
 
   &__title {
+    position: relative;
     display: flex;
     align-items: center;
     min-height: var(--accordionGroupCounterHeight);
-    position: relative;
     padding-right: 50px;
     color: inherit;
     transition-duration: var(--transition-duration);
 
     &::before,
     &::after {
-       @include abs-y;
+      @include abs-y;
 
-      content: "";
+      content: '';
       right: 0;
       width: fluid-to-laptop(20, 16);
       height: 2.5px;
       background-color: var(--color-white);
       border-radius: 10px;
-      transition-duration: var(--transition-duration-longer);
+      transition-duration: var(--transition-duration);
 
       @include laptop {
         height: 2px;
@@ -71,7 +66,6 @@
 
     &-inner {
       overflow: hidden;
-
     }
 
     &-body {

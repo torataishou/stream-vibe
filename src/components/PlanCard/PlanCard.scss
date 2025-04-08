@@ -12,12 +12,12 @@
     border-radius: var(--border-radius-m);
   }
 
-&__info {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  row-gap: fluid(16, 10);
-}
+  &__info {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: fluid(16, 10);
+  }
 
   &__conditions {
     display: flex;

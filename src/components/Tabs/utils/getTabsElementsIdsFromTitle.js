@@ -1,12 +1,12 @@
-import getIdFromTitle from '@/utils/getIdFromTitle';
+import getIdFromTitle from '@/utils/getIdFromTitle'
 
-const getTabsElementIdsFromTitle = (title) => {
-    const titleFormatted = getIdFromTitle(title)
+const getTabsElementsIdsFromTitle = (title) => {
+  const titleFormatted = getIdFromTitle(title)
 
-    return {
-        buttonId: `${titleFormatted}-tab`,
-        contentId: `${titleFormatted}-tabpanel`
-    }
-};
+  return {
+    buttonId: `${titleFormatted}-tab`,
+    contentId: `${titleFormatted}-tabpanel`,
+  }
+}
 
-export default getTabsElementIdsFromTitle;
+export default getTabsElementsIdsFromTitle
