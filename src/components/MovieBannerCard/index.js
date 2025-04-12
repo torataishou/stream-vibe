@@ -1,3 +1,3 @@
-import MovieBannerCard from './MovieBannerCard';
+import MovieBannerCard from './MovieBannerCard'
 
-export default MovieBannerCard;
+export default MovieBannerCard

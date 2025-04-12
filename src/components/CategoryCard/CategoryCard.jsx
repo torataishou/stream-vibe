@@ -1,7 +1,7 @@
 import './CategoryCard.scss'
 import { Image } from 'minista'
 import Icon from '@/components/Icon'
-import Badge from '@/components/Badge';
+import Badge from '@/components/Badge'
 
 const CategoryCard = (props) => {
   const {
@@ -23,15 +23,15 @@ const CategoryCard = (props) => {
       </div>
       <div className="category-card__body">
         <h3 className="category-card__title">
-            {badge && (
-                <Badge
-                className="category-card__badge"
-                mode="accent"
-                isBig
-                >
-                    {badge}
-                </Badge>
-            )}
+          {badge && (
+            <Badge
+              className="category-card__badge"
+              mode="accent"
+              isBig
+            >
+              {badge}
+            </Badge>
+          )}
           <span>{title}</span>
         </h3>
         <Icon

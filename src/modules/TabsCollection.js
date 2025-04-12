@@ -26,8 +26,8 @@ class Tabs extends BaseComponent {
     this.rootElement = rootElement
     this.params = getParams(this.rootElement, this.selectors.root)
     this.navigationElement = this.params.navigationTargetElementId
-        ? document.getElementById(this.params.navigationTargetElementId)
-        : this.rootElement.querySelector(this.selectors.navigation)
+      ? document.getElementById(this.params.navigationTargetElementId)
+      : this.rootElement.querySelector(this.selectors.navigation)
     this.buttonElements = [...this.navigationElement.querySelectorAll(this.selectors.button)]
     this.contentElements = [...this.rootElement.querySelectorAll(this.selectors.content)]
     this.state = this.getProxyState({
@@ -61,19 +61,19 @@ class Tabs extends BaseComponent {
   }
 
   updateNavigationCSSVars(
-      activeButtonElement = this.buttonElements[this.state.activeTabIndex]
+    activeButtonElement = this.buttonElements[this.state.activeTabIndex]
   ) {
     const { width, left } = activeButtonElement.getBoundingClientRect()
     const offsetLeft = left - this.navigationElement.getBoundingClientRect().left
 
     this.navigationElement.style.setProperty(
-        this.stateCSSVariables.activeButtonWidth,
-        `${pxToRem(width)}rem`
+      this.stateCSSVariables.activeButtonWidth,
+      `${pxToRem(width)}rem`
     )
 
     this.navigationElement.style.setProperty(
-        this.stateCSSVariables.activeButtonOffsetLeft,
-        `${pxToRem(offsetLeft)}rem`
+      this.stateCSSVariables.activeButtonOffsetLeft,
+      `${pxToRem(offsetLeft)}rem`
     )
   }
 
@@ -84,16 +84,16 @@ class Tabs extends BaseComponent {
 
   previousTab = () => {
     const newTabIndex = this.state.activeTabIndex === 0
-        ? this.limitTabsIndex
-        : this.state.activeTabIndex - 1
+      ? this.limitTabsIndex
+      : this.state.activeTabIndex - 1
 
     this.activateTab(newTabIndex)
   }
 
   nextTab = () => {
     const newTabIndex = this.state.activeTabIndex === this.limitTabsIndex
-        ? 0
-        : this.state.activeTabIndex + 1
+      ? 0
+      : this.state.activeTabIndex + 1
 
     this.activateTab(newTabIndex)
   }
@@ -113,9 +113,9 @@ class Tabs extends BaseComponent {
   onKeyDown = (event) => {
     const { target, code, metaKey } = event
     const isTabsContentFocused = this.contentElements
-        .some((contentElement) => contentElement === target)
+      .some((contentElement) => contentElement === target)
     const isTabsButtonFocused = this.buttonElements
-        .some((buttonElement) => buttonElement === target)
+      .some((buttonElement) => buttonElement === target)
 
     if (!isTabsContentFocused && !isTabsButtonFocused) {
       return

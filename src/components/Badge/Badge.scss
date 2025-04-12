@@ -1,4 +1,7 @@
 .badge {
+  @include flex-center(true);
+
+  column-gap: 2px;
   padding: 6px 10px;
   font-size: fluid-to-laptop(14, 12);
   font-weight: 500;
@@ -7,12 +10,11 @@
   white-space: nowrap;
   background-color: var(--color-black-08);
   border: var(--border);
-  border-right: 50px;
+  border-radius: 50px;
 
   @include mobile {
     padding-inline: 8px;
   }
-
 
   &--accent {
     color: var(--color-white);
@@ -23,11 +25,17 @@
     @include laptop {
       border-radius: var(--border-radius-xxxs);
     }
+  }
 
-    &--big {
-      padding: fluid-to-laptop(10, 8);
-      font-size: fluid-to-laptop(16, 12);
-      font-weight: 600;
+  &--big {
+    padding: fluid-to-laptop(10, 8);
+    font-size: fluid-to-laptop(16, 12);
+    font-weight: 600;
+  }
+
+  &__icon {
+    &.icon {
+      --iconSize: #{fluid-to-laptop(24, 20)};
     }
   }
 }

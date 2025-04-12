@@ -1,3 +1,3 @@
-import Collections from './Collections';
+import Collections from './Collections'
 
-export default Collections;
+export default Collections
