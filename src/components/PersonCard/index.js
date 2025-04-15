@@ -1,3 +1,3 @@
-import PersonCard from './PersonCard';
+import PersonCard from './PersonCard'
 
-export default PersonCard;
+export default PersonCard

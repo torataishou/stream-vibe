@@ -1,7 +1,7 @@
 import './MovieBannerCard.scss'
 import { Image } from 'minista'
 import Button from '@/components/Button'
-import classNames from 'classnames';
+import classNames from 'classnames'
 
 const MovieBannerCard = (props) => {
   const {
@@ -19,13 +19,15 @@ const MovieBannerCard = (props) => {
         className="movie-banner-card__image"
         src={imgSrc}
       />
-      <div className={classNames('movie-banner-card__inner', {
-        'movie-banner-card__inner--small-padding-y': isSmallPaddingY,
-      })}>
+      <div
+        className={classNames('movie-banner-card__inner', {
+          'movie-banner-card__inner--small-padding-y': isSmallPaddingY,
+        })}
+      >
         <div className="movie-banner-card__body">
           <TitleTag
-              className="movie-banner-card__title h3"
-              id={titleId}
+            className="movie-banner-card__title h3"
+            id={titleId}
           >
             {title}
           </TitleTag>
