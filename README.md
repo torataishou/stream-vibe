@@ -1,0 +1,36 @@
+**Front-end - StreamVibe, streaming service.**
+-----------------------
+Built using JavaScript, Minista, Vite, React.
+
+
+📸 **Screenshot**
+-----------------------
+![img.png](public/readme-images/img.png)
+
+
+🚀 **Online version**
+-----------------------
+
+Open: **Coming soon..**
+
+
+⚙️ Used technologies
+-----------------------
+
+- JavaScript (ES6+)
+- HTML5, SCSS
+- Minista, Vite
+- React
+
+📦 Local installation
+-----------------------
+`
+git clone https://github.com/torataishou/stream-vibe
+cd stream-vibe
+npm install
+npm start
+`
+
+📁 Mockup
+-----------------------
+https://www.figma.com/design/uIo0pJQqAJCvSyyPQonMZQ/StreamVibe?m=auto&t=zKel0Iatp5XoyVY3-6
