@@ -2,6 +2,7 @@ import './Seasons.scss'
 import AccordionGroup from '@/components/AccordionGroup';
 import seasonItem from '@/components/Seasons/seasonItem';
 import Accordion from '@/components/Accordion';
+import EpisodeCard from '@/components/EpisodeCard';
 
 const Seasons = (props) => {
 
@@ -29,7 +30,7 @@ const Seasons = (props) => {
                    <ul className="seasons__list">
                        {episodes.map((episode, index) => (
                            <li className="seasons__item" key={index}>
-                               {episode.title}
+                               <EpisodeCard {...episode}/>
                            </li>
                        ))}
                    </ul>
