@@ -24,13 +24,17 @@ Open: **Coming soon..**
 
 📦 Local installation
 -----------------------
-`
+```bash
 git clone https://github.com/torataishou/stream-vibe
 cd stream-vibe
 npm install
 npm start
-`
+```
 
 📁 Mockup
 -----------------------
 https://www.figma.com/design/uIo0pJQqAJCvSyyPQonMZQ/StreamVibe?m=auto&t=zKel0Iatp5XoyVY3-6
+
+📄 License
+-----------------------
+### **MIT License**
