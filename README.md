@@ -11,7 +11,8 @@ Built using JavaScript, Minista, Vite, React.
 🚀 **Online version**
 -----------------------
 
-Open: **Coming soon..**
+Open:
+https://stream-vibe-seven-iota.vercel.app/
 
 
 ⚙️ Used technologies
