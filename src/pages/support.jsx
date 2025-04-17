@@ -1,3 +1,4 @@
+import Support from '@/sections/Support';
 
 export const metadata = {
     title: 'Support',
@@ -6,7 +7,7 @@ export const metadata = {
 export default function () {
     return (
         <>
-
+            <Support    />
         </>
     )
 }

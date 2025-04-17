@@ -18,15 +18,15 @@ const MovieDetails = (props) => {
   const castSliderNavigationId = 'movie-card-slider-navigation'
 
   const castItems = [
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
-    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'Ivan Ivanov' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
+    { imgSrc: '/src/assets/images/people/cast.jpg', imgAlt: 'John Doe' },
   ]
 
   const reviewItems = [
