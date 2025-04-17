@@ -1,3 +1,3 @@
-import EpisodeCard from './EpisodeCard';
+import EpisodeCard from './EpisodeCard'
 
-export default EpisodeCard;
+export default EpisodeCard

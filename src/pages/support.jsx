@@ -1,13 +1,15 @@
-import Support from '@/sections/Support';
+import Support from '@/sections/Support'
+import Questions from '@/sections/Questions'
 
 export const metadata = {
-    title: 'Support',
+  title: 'Support',
 }
 
 export default function () {
-    return (
-        <>
-            <Support    />
-        </>
-    )
+  return (
+    <>
+      <Support />
+      <Questions />
+    </>
+  )
 }

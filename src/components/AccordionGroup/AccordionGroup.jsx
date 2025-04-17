@@ -4,9 +4,9 @@ import classNames from 'classnames'
 const AccordionGroup = (props) => {
   const {
     className,
-    /*
-    * '' (default) | 'dark'
-    */
+    /**
+     * '' (default) | 'dark'
+     */
     mode = '',
     columns = 1,
     children,
@@ -18,7 +18,7 @@ const AccordionGroup = (props) => {
 
   return (
     <ListTag
-      className={classNames('accordion-group', {
+      className={classNames(className, 'accordion-group', {
         [`accordion-group--${columns}-columns`]: columns > 1,
         'accordion-group--has-counter': isOrderedList,
         [`accordion-group--${mode}`]: mode,
@@ -26,7 +26,7 @@ const AccordionGroup = (props) => {
     >
       {children.map((child, index) => (
         <li
-          className={classNames(className, 'accordion-group__item', {
+          className={classNames('accordion-group__item', {
             'accordion-group__item--last-column-item': columns > 1 && itemsPerColumn / (index + 1) === 1
           })}
           key={index}

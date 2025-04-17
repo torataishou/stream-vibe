@@ -1,3 +1,3 @@
-import ShowBanner from './ShowBanner';
+import ShowBanner from './ShowBanner'
 
-export default ShowBanner;
+export default ShowBanner

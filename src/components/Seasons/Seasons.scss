@@ -9,7 +9,6 @@
   &__item {
     @include mobile-above {
       border-top: var(--border);
-
     }
   }
 }
